@@ -18,8 +18,8 @@ A simple WhatsApp chatbot backend simulation built with **Java** and **Spring Bo
 
 | Layer       | Technology              |
 |-------------|-------------------------|
-| Language    | Java 17                 |
-| Framework   | Spring Boot 3.2.0       |
+| Language    | Java 21                 |
+| Framework   | Spring Boot 4.0.5       |
 | Build Tool  | Maven                   |
 | Logging     | SLF4J (built-in)        |
 | Deployment  | Localhost / Render      |
