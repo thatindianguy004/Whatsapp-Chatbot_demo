@@ -49,7 +49,7 @@ whatsapp-chatbot/
 
 ### Prerequisites
 
-- Java 17 or higher
+- Java 21 or higher
 - Maven 3.8+
 - IntelliJ IDEA (or any IDE)
 
@@ -145,23 +145,6 @@ curl -X POST http://localhost:8080/webhook \
 2. URL: `http://localhost:8080/webhook`
 3. Headers: `Content-Type: application/json`
 4. Body (raw JSON): paste any request body from above
-
----
-
-## Deployment on Render
-
-1. Push project to GitHub
-2. Go to [render.com](https://render.com) → **New** → **Web Service**
-3. Connect your GitHub repository
-4. Configure:
-
-| Field           | Value                                              |
-|-----------------|----------------------------------------------------|
-| Build Command   | `./mvnw clean package -DskipTests`                |
-| Start Command   | `java -jar target/whatsapp-chatbot-0.0.1-SNAPSHOT.jar` |
-| Environment     | Java                                               |
-
-5. Click **Deploy** — your public URL will be: `https://your-app.onrender.com/webhook`
 
 ---
 
